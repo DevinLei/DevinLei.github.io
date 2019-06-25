@@ -7,11 +7,11 @@
 
 # Site settings
 title:  逻各斯与努斯
-subtitle: 追求理性与自由
+subtitle: 保持理性，追求自由
 name: 逻各斯与努斯 
 email: leiwei2603877573@sina.com
-description: 本站是纯洁的微笑的技术分享博客。内容涵盖生活故事、Java后端技术、Spring Boot、Spring Cloud、微服务架构、大数据演进、高可用架构、中间件使用、系统监控等相关的研究与知识分享。
-keywords: ityouknow,纯洁的微笑,Spring,Spring Boot,Spring Cloud,MongoDB,Jvm,Docker,生活故事,架构,大数据,一线,FastDFS,开发者,编程,代码,开源,IT网站,Developer,Programmer,Coder,Geek,IT技术博客,Java,Python,
+description: 本站是罗各斯与努斯的技术分享博客。内容涵盖java技术、生活、人文、自然科学、艺术等知识分享。
+keywords: 罗各斯与努斯,理性,自由,数据结构与算法,设计模式,Java,Jvm,Mysql,Spring,Spring Boot,Spring Cloud,MongoDB,Docker,分布式,哲学,历史,宗教,人文,数学,科幻,物理,数学,音乐
 encoding: "utf-8"
 favicon: favicon.ico 
 
