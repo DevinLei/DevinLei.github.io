@@ -56,30 +56,30 @@ paginate_path: 'page:num'
 # Navigation. top menu list
 menus:
 
-  -
-    href: /zsxq.html
-    label: 星球
-    target: _self
+#  -
+#    href: /zsxq.html
+#    label: 星球
+#    target: _self
 
   -
-    href: /gitchat.html
+    href: https://gitbook.cn/
     label: Chat
-    target: _self
+    target: _blank
 
   -
-    href: http://gk.link/a/103Gb
+    href: https://time.geekbang.org/
     label: 极客
     target: _blank
 
   -
-    href: /life.html
-    label: 故事
-    target: _self
+    href: https://leetcode.com/
+    label: LeetCode
+    target: _blank
 
   -
-    href: /arch.html
-    label: 架构
-    target: _self
+    href: https://stackoverflow.com/
+    label: Stackoverflow
+    target: _blank
 
   -
     href: /link.html
@@ -94,12 +94,23 @@ navs:
   -
     href: /
     label: Home
+    
+
+-
+    
+    href: /java.html
+    label: Java
+    target: _self
 
   -
-    href: /spring-boot.html
-    label: Spring Boot
+    href: /spring.html
+    label: Spring 
     target: _self
     subnav:
+    
+    -
+        subHref: /spring.html
+        subLabel: Spring 
 
       -
         subHref: /spring-boot.html
@@ -109,17 +120,16 @@ navs:
         subHref: /spring-cloud.html
         subLabel: Spring Cloud
 
-  -
-    href: /spring-cloud.html
-    label: Spring Cloud
-    target: _self
+-
+    href: /distributed.html
+    label: 分布式
+    target: _self        
 
-  -
-    
-    href: http://www.justdojava.com
-    label: Java
-    target: _blank
-
+-
+    href: /microservice.html
+    label: 微服务
+    target: _self            
+ 
   -
     href: /archives.html
     label: Archives
@@ -134,14 +144,24 @@ navs:
 # labels. my blog key words
 labels:
 
+ -
+    href: /datastruct.html
+    label: DataStruct
+    target: _blank
+ 
+-
+    href: /datastruct.html
+    label: Design pattern
+    target: _blank 
+
   -
-    href: /payment.html
-    label: 支付     
+    href: /mysql.html
+    label: Mysql    
     target: _self
 
   -
-    href: /fastdfs.html
-    label: FastDFS
+    href: /redis.html
+    label: Redis
     target: _blank
 
   -
@@ -154,34 +174,49 @@ labels:
     label: Docker
     target: _blank
 
+ -
+    href: /linux.html
+    label: Network
+    target: _blank        
+    
+ -
+    href: /linux.html
+    label: Linux
+    target: _blank    
+    
+ -
+    href: /optimize.html
+    label: 性能调优
+    target: _blank       
+ 
+-
+    href: /tools.html
+    label: 开发工具
+    target: _blank       
+
   -
     href: /open-source.html
     label: Code  
     target: _blank
 
   -
-    href: /it.html
-    label: IT 
-    target: _blank
-
-  -
-    href: /python.html
-    label: Python  
+    href: /ai.html
+    label: AI  
     target: _blank
 
 
 # selected articles
 classes:
 
-  -
-    href: /life.html
-    name: 我的故事
-    describe: 生活就是故事，故事就是生活
+#  -
+#    href: /life.html
+#    name: 我的故事
+#    describe: 生活就是故事，故事就是生活
 
-  -
-    href: /arch.html
-    name: 架构师之路
-    describe: 一个架构师的自我修养
+#  -
+#    href: /arch.html
+#    name: 架构师之路
+#    describe: 一个架构师的自我修养
 
   -
     href: /java.html
