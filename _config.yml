@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 逻各斯与努斯
+title:  逻各斯与努斯
 subtitle: 保持理性，追求自由
 name: 逻各斯与努斯 
 email: leiwei2603877573@sina.com
@@ -57,24 +57,29 @@ paginate_path: 'page:num'
 menus:
 
   -
-    href: https://gitbook.cn/
-    label: Chat
-    target: _blank
+    href: /zsxq.html
+    label: 星球
+    target: _self
 
   -
-    href: https://time.geekbang.org/
+    href: /gitchat.html
+    label: Chat
+    target: _self
+
+  -
+    href: http://gk.link/a/103Gb
     label: 极客
     target: _blank
 
   -
-    href: https://leetcode.com/
-    label: LeetCode
-    target: _blank
+    href: /life.html
+    label: 故事
+    target: _self
 
   -
-    href: https://stackoverflow.com/
-    label: Stackoverflow
-    target: _blank
+    href: /arch.html
+    label: 架构
+    target: _self
 
   -
     href: /link.html
@@ -89,21 +94,12 @@ navs:
   -
     href: /
     label: Home
-    
 
- -   
-    href: /java.html
-    label: Java
+  -
+    href: /spring-boot.html
+    label: Spring Boot
     target: _self
-
- -
-    href: /spring.html
-    label: Spring 
-    target: _self
-    subnav: 
-    -
-        subHref: /spring.html
-        subLabel: Spring 
+    subnav:
 
       -
         subHref: /spring-boot.html
@@ -113,16 +109,17 @@ navs:
         subHref: /spring-cloud.html
         subLabel: Spring Cloud
 
- -
-    href: /distributed.html
-    label: 分布式
-    target: _self        
+  -
+    href: /spring-cloud.html
+    label: Spring Cloud
+    target: _self
 
- -
-    href: /microservice.html
-    label: 微服务
-    target: _self            
- 
+  -
+    
+    href: http://www.justdojava.com
+    label: Java
+    target: _blank
+
   -
     href: /archives.html
     label: Archives
@@ -137,24 +134,14 @@ navs:
 # labels. my blog key words
 labels:
 
- -
-    href: /datastruct.html
-    label: DataStruct
-    target: _blank
- 
--
-    href: /designpattern.html
-    label: Design pattern
-    target: _blank 
-
   -
-    href: /mysql.html
-    label: Mysql    
+    href: /payment.html
+    label: 支付     
     target: _self
 
   -
-    href: /redis.html
-    label: Redis
+    href: /fastdfs.html
+    label: FastDFS
     target: _blank
 
   -
@@ -167,49 +154,34 @@ labels:
     label: Docker
     target: _blank
 
- -
-    href: /network.html
-    label: Network
-    target: _blank        
-    
- -
-    href: /linux.html
-    label: Linux
-    target: _blank    
-    
- -
-    href: /optimize.html
-    label: 性能调优
-    target: _blank       
- 
--
-    href: /tools.html
-    label: 开发工具
-    target: _blank       
-
   -
     href: /open-source.html
     label: Code  
     target: _blank
 
   -
-    href: /ai.html
-    label: AI  
+    href: /it.html
+    label: IT 
+    target: _blank
+
+  -
+    href: /python.html
+    label: Python  
     target: _blank
 
 
 # selected articles
 classes:
 
-#  -
-#    href: /life.html
-#    name: 我的故事
-#    describe: 生活就是故事，故事就是生活
+  -
+    href: /life.html
+    name: 我的故事
+    describe: 生活就是故事，故事就是生活
 
-#  -
-#    href: /arch.html
-#    name: 架构师之路
-#    describe: 一个架构师的自我修养
+  -
+    href: /arch.html
+    name: 架构师之路
+    describe: 一个架构师的自我修养
 
   -
     href: /java.html
@@ -235,7 +207,7 @@ side_bar_repo_limit: 6 # Number of repos to show
 # For about.html. Fell free to create your own!
 skill_software_keywords: [Java, MySQL, Oracle, Design Patterns]
 skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
-skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, NodeJS, ExpressJS, MongoDB, Redis, Boostrap]
+skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, NodeJS, ExpressJS, MongoDB, Redis, PHP,  Boostrap]
 skill_mobile_app_keywords: [vuejs, hyhird app]
 
 
