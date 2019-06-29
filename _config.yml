@@ -18,7 +18,7 @@ favicon: favicon.ico
 repository: devinlei/devinlei.github.io
 github_url: https://github.com/devinlei
 url: https://devinlei.github.io
-enforce_ssl: ityouknow.com
+# enforce_ssl: ityouknow.com
 
 ## Gem
 plugins:
