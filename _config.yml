@@ -56,92 +56,25 @@ paginate_path: 'page:num'
 # Navigation. top menu list
 menus:
 
-  -
-    href: /zsxq.html
-    label: 星球
-    target: _self
 
   -
-    href: /gitchat.html
-    label: Chat
-    target: _self
-
-  -
-    href: http://gk.link/a/103Gb
-    label: 极客
+    href: /datastruct.html
+    label: DataStruct
     target: _blank
+ 
+  -
+    href: /designpattern.html
+    label: Design pattern
+    target: _blank 
 
   -
-    href: /life.html
-    label: 故事
+    href: /mysql.html
+    label: Mysql    
     target: _self
 
   -
-    href: /arch.html
-    label: 架构
-    target: _self
-
-  -
-    href: /link.html
-    label: 友链
-    target: _self
-
-
-
-# Navigation. main menu list
-navs:
-
-  -
-    href: /
-    label: Home
-
-  -
-    href: /spring-boot.html
-    label: Spring Boot
-    target: _self
-    subnav:
-
-      -
-        subHref: /spring-boot.html
-        subLabel: Spring Boot
-
-      -
-        subHref: /spring-cloud.html
-        subLabel: Spring Cloud
-
-  -
-    href: /spring-cloud.html
-    label: Spring Cloud
-    target: _self
-
-  -
-    
-    href: http://www.justdojava.com
-    label: Java
-    target: _blank
-
-  -
-    href: /archives.html
-    label: Archives
-    target: _self
-
-  -
-    href: /about.html
-    label: About
-    target: _self
-
-
-# labels. my blog key words
-labels:
-
-  -
-    href: /payment.html
-    label: 支付     
-    target: _self
-
-  -
-    href: /fastdfs.html
-    label: FastDFS
+    href: /redis.html
+    label: Redis
     target: _blank
 
   -
@@ -155,33 +88,48 @@ labels:
     target: _blank
 
   -
+    href: /network.html
+    label: Network
+    target: _blank        
+    
+  -
+    href: /linux.html
+    label: Linux
+    target: _blank    
+    
+  -
+    href: /optimize.html
+    label: 性能调优
+    target: _blank       
+ 
+  -
+    href: /tools.html
+    label: 开发工具
+    target: _blank       
+
+  -
     href: /open-source.html
     label: Code  
     target: _blank
 
   -
-    href: /it.html
-    label: IT 
-    target: _blank
-
-  -
-    href: /python.html
-    label: Python  
+    href: /ai.html
+    label: AI  
     target: _blank
 
 
 # selected articles
 classes:
 
-  -
-    href: /life.html
-    name: 我的故事
-    describe: 生活就是故事，故事就是生活
+#  -
+#    href: /life.html
+#    name: 我的故事
+#    describe: 生活就是故事，故事就是生活
 
-  -
-    href: /arch.html
-    name: 架构师之路
-    describe: 一个架构师的自我修养
+#  -
+#    href: /arch.html
+#    name: 架构师之路
+#    describe: 一个架构师的自我修养
 
   -
     href: /java.html
@@ -207,7 +155,7 @@ side_bar_repo_limit: 6 # Number of repos to show
 # For about.html. Fell free to create your own!
 skill_software_keywords: [Java, MySQL, Oracle, Design Patterns]
 skill_j2ee_keywords: [Spring, Struct, Hibernet, MyBatis, JSP]
-skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, NodeJS, ExpressJS, MongoDB, Redis, PHP,  Boostrap]
+skill_web_keywords: [HTML, CSS, JS, JQuery, Ajax, NodeJS, ExpressJS, MongoDB, Redis, Boostrap]
 skill_mobile_app_keywords: [vuejs, hyhird app]
 
 
