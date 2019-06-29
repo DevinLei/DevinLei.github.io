@@ -11,4 +11,4 @@
 
 ## 我的微信公众号
 
-![](/images/mysubscrible.jpg)
+![](assets/images/mysubscrible.jpg)
