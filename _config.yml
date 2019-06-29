@@ -56,6 +56,86 @@ paginate_path: 'page:num'
 # Navigation. top menu list
 menus:
 
+  -
+    href: https://gitbook.cn/
+    label: Chat
+    target: _blank
+
+  -
+    href: https://time.geekbang.org/
+    label: 极客
+    target: _blank
+
+  -
+    href: https://leetcode.com/
+    label: LeetCode
+    target: _blank
+
+  -
+    href: https://stackoverflow.com/
+    label: Stackoverflow
+    target: _blank
+
+  -
+    href: /link.html
+    label: 友链
+    target: _self
+
+
+
+# Navigation. main menu list
+navs:
+
+  -
+    href: /
+    label: Home
+    
+
+  -   
+    href: /java.html
+    label: Java
+    target: _self
+
+  -
+    href: /spring.html
+    label: Spring 
+    target: _self
+    subnav: 
+      -
+        subHref: /spring.html
+        subLabel: Spring 
+
+      -
+        subHref: /spring-boot.html
+        subLabel: Spring Boot
+
+      -
+        subHref: /spring-cloud.html
+        subLabel: Spring Cloud
+
+  -
+    href: /distributed.html
+    label: 分布式
+    target: _self        
+
+  -
+    href: /microservice.html
+    label: 微服务
+    target: _self            
+ 
+  -
+    href: /archives.html
+    label: Archives
+    target: _self
+
+  -
+    href: /about.html
+    label: About
+    target: _self
+
+
+# labels. my blog key words
+labels:
 
   -
     href: /datastruct.html
