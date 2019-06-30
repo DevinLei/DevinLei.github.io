@@ -1,4 +1,11 @@
-﻿@[toc]
+---
+layout: post
+title: 设计模式总览
+copyright: designpattern 
+category: designpattern
+tags: [designpattern]
+keywords: designpattern,设计模式
+---
 ###  概念
 设计模式是一种经大量实践总结抽象出的代码通用设计技巧；能够让代码设计变得简洁、优雅、健壮、易扩展和维护；设计模式被广泛应用于经典的程序设计中，例如Spring、Mybatis等。
 
