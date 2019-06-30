@@ -41,10 +41,10 @@ keywords: java,Integer
 我们通过下面两幅图来了解下这个过程
 
 
-![交换前](assets/images/java/Integer.png)
+![交换前](https://img-blog.csdnimg.cn/20190630162529375.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMyNzM2OTQ3,size_16,color_FFFFFF,t_70)
 
 
-![交换后](assets/images/java/Integer2.png)
+![交换后](https://img-blog.csdnimg.cn/20190630162550720.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMyNzM2OTQ3,size_16,color_FFFFFF,t_70)
 
 
 所以实际进行交换的仅仅是a,b的副本，并非a,b本身。
@@ -52,7 +52,7 @@ keywords: java,Integer
 ### 不过你仍然可能有疑问，为什么Integer要规定传递副本呢？
 我们可以通过阅读Integer的源码找到答案：
 	
-![Integer部分源码](assets/images/java/IntegerSource.jpg)
+![Integer部分源码](https://img-blog.csdnimg.cn/20190630162612548.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMyNzM2OTQ3,size_16,color_FFFFFF,t_70)
 
 可以看到Integer的value被final修饰，意味着值不可变。
 

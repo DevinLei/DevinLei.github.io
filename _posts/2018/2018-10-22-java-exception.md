@@ -7,7 +7,7 @@ tags: [java]
 keywords: java,Exception
 ---
 
-![](assets/images/java/javaExceptionClass.png)
+![](https://img-blog.csdnimg.cn/20190630162049629.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMyNzM2OTQ3,size_16,color_FFFFFF,t_70)
 
 ## Error:表示错误,程序无法处理，多与硬件相关。
 ## Exception:表示程序逻辑错误，可以被程序处理。
