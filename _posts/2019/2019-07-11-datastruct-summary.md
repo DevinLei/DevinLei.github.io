@@ -1,12 +1,12 @@
-﻿---
+---
 layout: post
 title: 数据结构与算法概述
 copyright: datastruct
 category: datastruct
 tags: [datastruct]
-keywords: 数据结构、算法
+keywords: 数据结构,算法,datastruct
 --
----
+
 
 ### 什么是数据结构与算法？
 简单来说，数据结构就是指一组数据元素的组织形式；算法指的是解决某个问题的操作步骤。
