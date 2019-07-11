@@ -15,7 +15,7 @@ keywords: 数据结构,时间复杂度,排序算法,查找
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='datastruct'  or post.keywords contains '数据结构'or post.keywords contains '算法' %}
+                {% if post.category=='datastruct'  or post.keywords contains '数据结构' or post.keywords contains '算法' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
