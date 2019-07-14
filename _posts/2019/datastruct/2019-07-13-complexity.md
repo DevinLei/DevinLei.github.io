@@ -128,17 +128,8 @@ int cal(int n) {
 先来看第五行代码执行次数为n,时间复杂度为O(n),其中第五行代码又调用了f函数,而f函数的时间复杂度也为O(n),那么总的时间复杂度T(n)=O(n*n)=O(n²)。
 
 ### 几种常见的时间复杂度案例分析
-|执行次数函数  |阶  |  非正式术语|
-|--|--|--|
-| 100|O(1)  |常量阶
-| 5log₂n+20 | O(logn) | 对数阶
-| 2n+3 |O(n)  | 线性阶
-| 2n+3nlog₂ n+19| O(nlogn） | 线性对数阶
-| 3n²+2n+1|O(n²)  |平方阶
-| 2n³+3n²+n+1 | O(n³) | 立方阶
-| 2ⁿ| O(2ⁿ) | 指数阶
-| n!| O(n!) |阶乘阶
-| nⁿ | O(nⁿ) |n次方阶
+![在这里插入图片描述](https://upload-images.jianshu.io/upload_images/17842845-8e5e212add40faa6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 表格所列时间复杂度从上到下耗费时间逐渐增多，即效率变差。参考下图：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2019071401214628.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMyNzM2OTQ3,size_16,color_FFFFFF,t_70)
 
